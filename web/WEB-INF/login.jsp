@@ -9,9 +9,20 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Lab 4: Login</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login</h1>
+        <form method="POST" action="home">
+            <label>Username: 
+                <input type="text" name="username" value="${currentUser}">
+            </label><br>
+            <label>Password: 
+                <input type="text" name="pasword" value="${currentPass}">
+            </label><br>
+            <input type="submit" name="submit" value="Log in">
+        </form>
+            <br>
+            <p>${loginMessage}</p>
     </body>
 </html>
