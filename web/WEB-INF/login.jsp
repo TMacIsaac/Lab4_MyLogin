@@ -13,12 +13,12 @@
     </head>
     <body>
         <h1>Login</h1>
-        <form method="POST" action="home">
+        <form method="POST" action="login">
             <label>Username: 
                 <input type="text" name="username" value="${currentUser}">
             </label><br>
             <label>Password: 
-                <input type="text" name="pasword" value="${currentPass}">
+                <input type="text" name="password" value="${currentPass}">
             </label><br>
             <input type="submit" name="submit" value="Log in">
         </form>
